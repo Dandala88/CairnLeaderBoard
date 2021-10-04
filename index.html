@@ -20,7 +20,7 @@
             var json = JSON.parse(this.responseText);
 
             var htmlString = "";
-            var i = 0;
+            var i = 1;
             json.forEach(element => {
                 htmlString += "<tr><td>" + i + "</td><td>" + element.name + "</td>" + "<td>" + element.score + "</td></tr>";
                 i++;
